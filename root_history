@@ -53,9 +53,9 @@
    53  apt-get install git
    54  git config --global user.name "mrciveniv"
    55  git config --global user.email "w79cr@yahoo.com"
-   56  mkdir ProyectoLamp
-   57  cd ProyectoLamp/
-   58  echo "# ProyectoLamp" >> README.md
+   56  mkdir LampProyecto1
+   57  cd LampProyecto1/
+   58  echo "# LampProyecto1" >> README.md
    59  ls
    60  git init
    61  git status
@@ -103,7 +103,7 @@
   103  ls
   104  cd .
   105  cd
-  106  cd ProyectoLamp/
+  106  cd LampProyecto1/
   107  mkdir LAMP
   108  cd LAMP/
   109  mkdir apache2
@@ -115,7 +115,7 @@
   115  cd historyProyecto
   116  cd historyProyecto/
   117  cd history/
-  118  cd ProyectoLamp/
+  118  cd LampProyecto1/
   119  cd history/
   120  cd history
   121  cd history/
@@ -127,7 +127,7 @@
   127  ls
    128  cd
   129  cd -r archivosApache/
-  130  cd ProyectoLamp/
+  130  cd LampProyecto1/
   131  ls
   132  rm -r archivosApache/
   133  ls 
