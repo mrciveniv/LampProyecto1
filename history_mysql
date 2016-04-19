@@ -1,0 +1,8 @@
+create database drupal;
+create user 'walter'@'localhost';
+update mysql.user set password-password('civ3322') where user='walter';
+update mysql.user set password=password('civ3322') where user='walter';
+grant all priveleges on drupal.* to 'walter'@'localhost';
+grant all privileges on drupal.* to 'walter'@'localhost';
+flush privileges;
+show grants for 'walter'@'localhost';

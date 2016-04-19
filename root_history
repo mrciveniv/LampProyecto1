@@ -1,0 +1,61 @@
+1  1 apt-get install apache2 -y
+   2 apt-get install vim
+   3  apt-get install php5 libapache2-mod-php5 -y
+   4  /etc/init.d/apache2 restart
+   5  vim /var/www/html/test.php
+   6  vi /var/www/html/test.php
+   7  apt-get install mysql-server -y
+   8  apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin -y
+   9  vi /etc/php5/apache2/php.ini
+   10  cd /etc/apache2/
+   11  ls
+   12  vi apache2.conf
+   13  vi /etc/apache2/httpd.conf
+   14  /etc/init.d/apache2 restart
+   15  mysql -u root -p
+   16  cd /var/www/html
+   17  ls
+   18  wget https://ftp.drupal.org/files/projects/drupal-7.43.tar.gz
+   19  tar xvzf drupal-7.43.tar.gz
+   20  ls
+   21  mv drupal-7.43 walter
+   22  ls
+   23  ls -la
+   24  chown -R www-data.www-data walter
+   25  cd walter/
+   26  ls -la
+   27  cd /etc/apache2/sites-available/
+   28  cp 000-default.conf edgar.conf
+   29  vi walter.conf 
+   30  cd /var/www/
+   31  cd /html
+   32  cd html/
+   33  ls
+   34  fg
+   35  cd /etc/apache2/sites-available/
+   36  apt-get install vim -y
+   37  vim walter.conf
+   38  a2ensite walter
+   39  vim /etc/apache2/apache2.conf 
+   40  /etc/init.d/apache2 reload
+   41  vim /etc/apache2/ports.conf 
+   42  ls
+   43  vim walter.conf
+   44  cd /var/www/html/walter/
+   45  ls
+   46  ip -4 addr
+   47  a2enmond vhost_alias rewrite
+   48  /etc/init.d/apache2 reload
+   49  vim /etc/hosts
+   50  /etc/init.d/apache2 reload
+   51  ip -4 addr
+   52  vim /etc/hosts
+   53  /etc/init.d/apache2 reload
+   54  mysql -u walter -ppassword drupal
+   55  mysql -u root -p
+   56  /etc/init.d/apache2 reload
+   57  pwd
+   58  cd /home/walter
+   59  ls
+   60  cd Documents
+   71  history > historia.txt
