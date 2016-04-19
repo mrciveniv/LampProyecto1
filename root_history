@@ -1,61 +1,143 @@
-1  1 apt-get install apache2 -y
-   2 apt-get install vim
-   3  apt-get install php5 libapache2-mod-php5 -y
-   4  /etc/init.d/apache2 restart
-   5  vim /var/www/html/test.php
-   6  vi /var/www/html/test.php
-   7  apt-get install mysql-server -y
-   8  apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin -y
-   9  vi /etc/php5/apache2/php.ini
-   10  cd /etc/apache2/
-   11  ls
-   12  vi apache2.conf
-   13  vi /etc/apache2/httpd.conf
-   14  /etc/init.d/apache2 restart
-   15  mysql -u root -p
-   16  cd /var/www/html
-   17  ls
-   18  wget https://ftp.drupal.org/files/projects/drupal-7.43.tar.gz
-   19  tar xvzf drupal-7.43.tar.gz
-   20  ls
-   21  mv drupal-7.43 walter
-   22  ls
-   23  ls -la
-   24  chown -R www-data.www-data walter
-   25  cd walter/
-   26  ls -la
-   27  cd /etc/apache2/sites-available/
-   28  cp 000-default.conf edgar.conf
-   29  vi walter.conf 
-   30  cd /var/www/
-   31  cd /html
-   32  cd html/
-   33  ls
-   34  fg
-   35  cd /etc/apache2/sites-available/
-   36  apt-get install vim -y
-   37  vim walter.conf
-   38  a2ensite walter
-   39  vim /etc/apache2/apache2.conf 
-   40  /etc/init.d/apache2 reload
-   41  vim /etc/apache2/ports.conf 
-   42  ls
+  1  apt-get install apache2 -y
+    2  sudo apt-get update
+    3  apt-get install vim
+    4  apt-get install apache2 -y
+    5  apt-get install php5 libapache2-mod-php5 -y
+    6  vim /var/www/html/test.php
+    7  /etc/init.d/apache2 restart
+    8  ip -4 addr
+    9  vim /var/www/html/test.php
+   10  /etc/init.d/apache2 restart
+   11  apt-get install mysql-server -y
+   12  apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin -y
+   13  vim /etc/php5/apache2/php.ini
+   14  cd etc/apache2
+   15  cd etc/apache2/
+   16  cd /etc/apache2
+   17  ls 
+   18  vim /apache2.conf
+   19  vim apache2.conf
+   20  vim /etc/apache2/httpd.conf
+   21  /etc/init.d/apache2 restart
+   22  mysql -u root -p
+   23  cd /var/www/html
+   24  ls
+   25  wget https://ftp.drupal.org/files/projects/drupal-7.43.tar.gz
+   26  tar xvzf drupal-7.43.tar.gz
+   27  ls
+   28  mv drupal-7.43 walter
+   29  ls
+   30  chown -R www-data.www-data walter
+   31  cd walter
+   32  ls -la
+   33  cd /etc/apache2/sites-available
+   34  cp 000-default.conf walter.conf
+   35  vim walter.conf 
+   36  a2ensite walter
+   37  vim /etc/apache2.conf
+   38  vim etc/apache2.conf
+   39  vim etc/apache2/apache2.conf
+   40  vim /etc/apache2/apache2.conf
+   41  /etc/init.d/apache2 reload
+   42  vim /etc/apache2/ports.conf
    43  vim walter.conf
-   44  cd /var/www/html/walter/
-   45  ls
-   46  ip -4 addr
-   47  a2enmond vhost_alias rewrite
-   48  /etc/init.d/apache2 reload
-   49  vim /etc/hosts
+   44  /etc/init.d/apache2 reload
+   45  ip -4 addr
+   46  vim /etc/hosts
+   47  /etc/init.d/apache2 reload
+   48  poweroff
+   49  history > Proyecto1.txt
    50  /etc/init.d/apache2 reload
-   51  ip -4 addr
-   52  vim /etc/hosts
-   53  /etc/init.d/apache2 reload
-   54  mysql -u walter -ppassword drupal
-   55  mysql -u root -p
-   56  /etc/init.d/apache2 reload
-   57  pwd
-   58  cd /home/walter
+   51  /etc/init.d/apache2 restart
+   52  ip -4 addr
+   53  apt-get install git
+   54  git config --global user.name "mrciveniv"
+   55  git config --global user.email "w79cr@yahoo.com"
+   56  mkdir ProyectoLamp
+   57  cd ProyectoLamp/
+   58  echo "# ProyectoLamp" >> README.md
    59  ls
-   60  cd Documents
-   71  history > historia.txt
+   60  git init
+   61  git status
+   62  cd ..
+   63  ls
+   64  history > historyProyecto1.txt
+   65  git status
+   66  git add historyProyecto1.txt
+   67  cd ProyectoLamp/
+   68  git add historyProyecto1.txt
+   69  cd
+   70  cd ProyectoLamp
+   71  cd ProyectoLamp/
+   72  tree
+   73  apt-get install tree
+   74  tree
+   75  apt-get update
+   76  tree
+   77  mkdir ProyectoLamp
+   78  cd ProyectoLamp/
+   79  ls
+   80  mkdir archivosApache
+   81  cd archivosApache/
+   82  ls
+   83  cp /etc/apache2/sites-available/walter.org.conf
+   84  /etc/init.d/apache2 restart
+   85  cp /etc/apache2/sites-available/walter.org.conf
+   86  cp /etc/apache2/sites-available/walter.org.conf .
+   87  cd
+   88  cd ..
+   89  git status
+   90  exit
+   91  /etc/hosts/
+   92  vim etc/hosts/
+   93  vim /etc/hosts
+   94  ip -4 addr
+   95  vim /etc/hosts
+   96  /etc/init.d/apache2 reload
+   97  /etc/init.d/apache2 restart
+   98  cd ProyectoLamp/
+   99  mkdir history
+  100  cd history/
+  101  mkdir historyProyecto
+  102  mkdir historymysql
+  103  ls
+  104  cd .
+  105  cd
+  106  cd ProyectoLamp/
+  107  mkdir LAMP
+  108  cd LAMP/
+  109  mkdir apache2
+  110  mkdir screenshots
+  111  mkdir sites
+  112  tree
+  113  cd apache2
+  114  cd
+  115  cd historyProyecto
+  116  cd historyProyecto/
+  117  cd history/
+  118  cd ProyectoLamp/
+  119  cd history/
+  120  cd history
+  121  cd history/
+  122  cd /history
+  123  cd history/
+  124  ls
+  125  rm archivosApache/
+  126  cd archivosApache/
+  127  ls
+   128  cd
+  129  cd -r archivosApache/
+  130  cd ProyectoLamp/
+  131  ls
+  132  rm -r archivosApache/
+  133  ls 
+  134  mkdir history
+  135  ls
+  136  cd history/
+  137  mkdir historyProyecto
+  138  ls
+  139  mkdir historymysql
+  140  ls
+  141  cp historyProyecto1.txt
+  142  history > 2historyProyecto.txt
+ 
