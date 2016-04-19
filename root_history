@@ -1,4 +1,4 @@
-  1  apt-get install apache2 -y
+    1  apt-get install apache2 -y
     2  sudo apt-get update
     3  apt-get install vim
     4  apt-get install apache2 -y
